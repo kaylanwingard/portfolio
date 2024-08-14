@@ -177,7 +177,7 @@ body {
     left:32px;
 }
 
-.div2 .menu a:hover, .skip:hover, .workheader a:hover, .pageinfo .menu a:hover {
+.div2 .menu a:hover, .skip:hover, .workheader a:hover, .pageinfo .menu a:hover, .pageinfo a:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition:0.2s all ease-in;
     border-color:var(--accent-main);
@@ -404,10 +404,9 @@ body {
     height: auto;
   }
 
-.articlemain a {
+.articlemain a, .pageinfo a {
     font-size: 1em;
     letter-spacing: 0.9px;
-    margin: auto;
     text-decoration: none;
     background-color: var(--accent-main);
     color:var(--grey-700);
@@ -416,8 +415,12 @@ body {
     text-align: center;
     font-weight: bold;
     transition: 0.5s;
-    margin: auto;
     text-align: center;
     margin: 0 50px !important;
+  }
+
+  .pageinfo a {
+    margin:auto;
+    transition:0.2s all ease-in;
   }
   
