@@ -424,3 +424,16 @@ body {
     transition:0.2s all ease-in;
   }
   
+  /**mobile adjustments**/
+
+  @media (min-width: 700px) {
+    .herogrid {
+      display:flex;
+      flex-direction:column;
+      gap:24px;
+    }
+    nav ul {
+      flex-direction: column;
+    }
+  }
+  
