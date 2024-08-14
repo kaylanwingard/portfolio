@@ -427,6 +427,19 @@ body {
   /**mobile adjustments**/
 
   @media (max-width: 700px) {
+    #topbar {
+        position:fixed;
+        left:0;
+        top:0;
+        background-color:var(--grey-100);
+        padding: 10px 24px;
+        width:calc(100vw - 48px);
+    }
+
+    .skip {
+        display:none;
+    }
+
     #hero {
         width:calc(100vw - 48px);
     }
@@ -450,6 +463,7 @@ body {
     }
 
     .workintro {
+        width:90vw;
         display: flex;
         gap: 30px;
         flex-direction: column;
@@ -461,7 +475,7 @@ body {
         border-radius: 8px;
       }
     
-      #articlemain {
+      .articlemain {
         width: 90vw;
         margin: auto;
         padding-bottom: 100px;
@@ -489,16 +503,5 @@ body {
         line-height: 120%;
       }
     
-      #workgrid {
-        width: 80vw;
-        margin: auto;
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-      }
-    
-      .contactlinks {
-        flex-direction: column;
-      }
   }
   
