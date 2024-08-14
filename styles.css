@@ -436,12 +436,10 @@ h1, h2, h3 {
     }
 
     #topbar {
-        position:fixed;
-        left:0;
-        top:0;
         background-color:var(--grey-100);
         padding: 10px 16px;
         width:calc(100vw - 32px);
+        justify-content:center;
     }
 
     .left {
