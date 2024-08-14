@@ -444,6 +444,10 @@ h1, h2, h3 {
         width:calc(100vw - 32px);
     }
 
+    .left {
+        display:none;
+    }
+
     .right {
         gap:8px;
     }
