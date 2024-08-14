@@ -432,8 +432,12 @@ body {
         left:0;
         top:0;
         background-color:var(--grey-100);
-        padding: 10px 24px;
-        width:calc(100vw - 48px);
+        padding: 10px 16px;
+        width:calc(100vw - 32px);
+    }
+
+    .right a {
+        gap:8px;
     }
 
     .skip {
@@ -443,6 +447,7 @@ body {
     #hero {
         width:calc(100vw - 48px);
     }
+    
     .herogrid {
       display:flex;
       flex-direction:column;
@@ -460,6 +465,10 @@ body {
 
     .workheader {
         font-size:1.8rem;
+    }
+
+    .pageinfo {
+        width:90vw;
     }
 
     .workintro {
@@ -495,7 +504,7 @@ body {
       }
     
       .pagechallenge div {
-        width: 60vw;
+        width: 80vw;
         margin: auto;
       }
     
