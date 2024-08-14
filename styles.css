@@ -434,7 +434,7 @@ h1, h2, h3 {
     body {
         font-size:1.1rem;
     }
-    
+
     #topbar {
         position:fixed;
         left:0;
@@ -444,7 +444,7 @@ h1, h2, h3 {
         width:calc(100vw - 32px);
     }
 
-    .right a {
+    .right {
         gap:8px;
     }
 
@@ -465,6 +465,7 @@ h1, h2, h3 {
     
     .div2 .menu {
         flex-direction:row;
+        justify-content:center;
     }
 
     .div1 h1 {
