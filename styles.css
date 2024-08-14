@@ -2,6 +2,8 @@
     font-family: 'geist';
     src: url('GeistVF.woff2') format('woff2');}
 
+/* general styling */
+
 :root {
     --grey-base: #000;
     --grey-50: #0a0a0a;
@@ -87,6 +89,7 @@ body {
     border-color:var(--accent-main);
 }
 
+/* index styling */
 
 #hero {
     width:calc(100vw - 96px);
@@ -103,7 +106,8 @@ body {
     grid-column-gap: 24px;
     grid-row-gap: 24px;
     padding:48px;
-    margin-top:40px;
+    margin-top:56px;
+    margin-bottom:100px;
     }
 
 .herogrid > div {
@@ -173,7 +177,7 @@ body {
     left:32px;
 }
 
-.div2 .menu a:hover, .skip:hover, .workheader a:hover {
+.div2 .menu a:hover, .skip:hover, .workheader a:hover, .pageinfo .menu a:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     transition:0.2s all ease-in;
     border-color:var(--accent-main);
@@ -185,7 +189,11 @@ body {
 }
 .div4 { grid-area: 2 / 4 / 3 / 7; }
 .div5 { grid-area: 3 / 1 / 4 / 4; }
-.div6 { grid-area: 3 / 4 / 4 / 7; }
+.div6 { 
+    grid-area: 3 / 4 / 4 / 7; 
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;}
     
 .workheader {
     padding:40px;
@@ -200,18 +208,20 @@ body {
 }
 
 .workheader a {
-    font-size:1.8rem;
+    font-size:2rem;
     color:var(--grey-50);
     background-color:var(--accent-main);
     display:flex;
-    width:30px;
-    height:30px;
+    align-items:center;
+    justify-content:center;
+    width:40px;
+    height:40px;
     padding:10px;
     border-radius:100%;
     transition:0.2s all ease-in;
 }
 
-.workimg1, .workimg2 {
+.workimg1, .workimg2, .colorblock {
     width:100%;
     border-radius: 0 0 16px 16px;
     margin:0;
@@ -237,4 +247,75 @@ body {
 
 .workimg2 img {
     border-radius:16px 16px 0 0;
+}
+
+.worksummary {
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.worksummary ion-icon {
+    font-size:3rem;
+}
+
+.colorblock {
+    background-color:var(--accent-main);
+    height:400px;
+}
+
+/* general page styling */
+
+#pagecontainer {
+    width:100vw;
+    padding: 88px 0;
+}
+
+.pageinfo {
+    width:60%;
+    margin:auto;
+}
+
+.pageinfo h2 {
+    font-size:3rem;
+    font-weight:400;
+}
+
+.pageinfo h3 {
+    font-size:1.5rem;
+    font-weight:400;
+    color:var(--grey-600);
+}
+
+.pageinfo blockquote {
+    border-left:1px solid var(--accent-main);
+    padding-left:24px;
+}
+
+/* contact page styling */
+
+.pageinfo .menu {
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding-top:16px;
+}
+
+.pageinfo .menu a {
+    background-color:var(--grey-200);
+    border:1px solid var(--grey-200);
+    padding:4px 16px;
+    border-radius:16px;
+    color:var(--grey-700);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.2s all ease-in;
+}
+
+.pageinfo .menu a:hover {
+    border-color:var(--accent-main);
 }
