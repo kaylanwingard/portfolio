@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kaylan Wingard</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+      </head>
+<body>
+    <div id="topbar">
+        <div class="left"><a href="/index.html"><ion-icon name="cafe-outline"></ion-icon> KW</a></div>
+        <div class="right">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </div>
+    <div id="pagecontainer">
+        <div class="pageinfo">
+            <h2>Designing a health legislation tracker app.</h2>
+            <img src="/images/health/hero.png">
+            <div class="workintro">
+             <div>
+                 <h3>
+                    Making health care into local politics.
+                   </h3>
+                   <p>
+                    The political can be personal — especially if you have a health
+                    concern that makes it more relevant to you than the average person.
+                  </p>
+                  <p>
+                    Most people in the U.S. focus on national health laws. However,
+                    local health laws, such as state expansions of low-income health
+                    care options like Medicaid, can be just as if not more important to
+                    the average person. In my time studying political science, I saw
+                    just how lacking easily accessible information was to most people —
+                    and to me, someone with a degree in the topic!
+                  </p>
+                  <p>
+                    For this last project in the Coursera Google UX course, I decided to
+                    focus on health legislation and how to make it more accessible to
+                    the average person.
+                  </p>
+             </div>
+            <div>
+                <b>Role:</b> UX/UI designer creating a scheduling app from conception
+                to delivery.<br /><b>Responsibilities:</b> User research, interviews,
+                competitive audits, paper and digital wireframes, low and
+                high-fidelity wireframing, usability studies, accessibility, design
+                iteration.<br />
+                <b>Tools:</b> Figma<br />
+                <b>Timeframe:</b> Feb ‘22 - May ‘22
+            </div>
+         </div>
+     </div>
+     <div class="pagechallenge">
+        <div>
+            <h1 align="center">The Challenge</h1>
+            Most complicated political topics—namely health bills—aren’t
+          understandable to an everyday audience, including those who are most
+          directly affected. Those who do understand are often unsure of what
+          actions to take next. Billcheck’s goal is to make U.S. citizens new
+          and old capable of finding health legislation quick, efficient, and
+          relevant to them while also offering ideas for next steps.
+          </div>
+    </div>
+    <div class="articlemain">
+        <h2 align="center">Objectives & Research</h2>
+        <h3>User Surveys</h3>
+        <p>
+          I recruited a group of ten different individuals with ages ranging from
+          20 to 60. There was a range of political activism in the group, and only
+          two of the individuals worked with health care or in a field relating to
+          public health. From my interviews I discovered three main pain points.
+        </p>
+        <ul>
+          <li>
+            <b>Confusion on terms:</b> Most political topics are couched in formal
+            and legal language that may be misleading. Adding medical topics into
+            that create an even more severe barrier. Users expressed confusion
+            about what terms might mean and often wished for simple and clear
+            language.
+          </li>
+          <li>
+            <b>Difficulty finding relevant bills or laws:</b> Users with different
+            health needs wanted to see bills relevant to their needs, not just
+            every bill related to health care in general. A few older individuals
+            complained about having a hard time navigating their local
+            government’s website. In other words, they wanted specificity over
+            generalized content.
+          </li>
+          <li>
+            <b>No prompts for next actions:</b> Calls to action are deeply
+            important to political activism. Users indicated that they could
+            gather that information through news sources, but didn’t know what to
+            do with it afterwards, and often felt like they would lose track of a
+            bill.
+          </li>
+        </ul>
+        <p>
+          Most of these indicated confusion while trying to understand and
+          categorize information, not issues with finding information in and of
+          itself, as well as what to do afterwards.
+        </p>
+        <h3>Competitive Audit</h3>
+        <p>
+          Running a competitive audit was surprisingly difficult. There were very
+          few competitors to what I wanted to make, especially with a health
+          focus, but I managed to find a few that were more website-based, as well
+          as one app (Causes). There were a few gaps in the market that I
+          immediately noticed. To illustrate these I’ll be using Bill Track 50, a
+          website which includes local legislation, and Causes, a platform which
+          combines social media and political knowledge.
+        </p>
+        <ul>
+          <li>
+            <b>Interfaces were often archaic and difficult to read.</b> Bill Check
+            50 has, without a doubt, one of the better interfaces, but the main
+            feature screen appears to be set up more for something like a tablet.
+          </li>
+          <li>
+            <b
+              >Most apps were full of information, but designed for experienced
+              political activists or those with pre-existing strong political
+              interest.</b
+            >
+            Bill Check 50’s Bill Search feature requires you to search certain
+            terms. I tried some common health vocabulary, and I was clearly
+            searching the wrong thing. No results at all. This is difficult for
+            someone new to political topics.
+          </li>
+          <li>
+            <b
+              >Those that were more user-focused often had a social media leaning
+              and included how to contact your representative, but not as much
+              info beyond that.</b
+            >
+            Calls to action are deeply important to political activism. Users
+            indicated that they could gather that information through news
+            sources, but didn’t know what to do with it afterwards, and often felt
+            like they would lose track of a bill.
+          </li>
+        </ul>
+        <h3>Personas & User Journey</h3>
+        <img src="/images/health/persona.png" />
+        <img src="/images/health/journey.png" />
+        <p>
+          The user journey helped me identify a few specific places where
+          improvements could be made, especially while considering the previous
+          pain points.
+        </p>
+        <ul>
+          <li>A glossary or simple language definitions built into the app</li>
+          <li>
+            Specific bills matched to a user’s relevant health conditions or
+            topics
+          </li>
+          <li>
+            A way to track a particular bill’s path through a local legislature
+          </li>
+        </ul>
+        <h2 align="center">Design & Refinement</h2>
+        <h3>Digital Wireframes</h3>
+        <div class="imagegrid three">
+          <img src="/images/health/lofi1.png" />
+          <img src="/images/health/lofi2.png" />
+          <img src="/images/health/lofi3.png" />
+        </div>
+        <h3>Lo-Fi Prototype</h3>
+        <img src="/images/health/protomap.png" />
+        <p>
+          I wanted to experiment with a few things I hadn’t used before: topbar
+          tab menus, as well as an emphasis on cards with text and images
+          involved. I also wanted to make sure that people had next steps
+          involved, so I created an achievements section.
+        </p>
+        <p>
+          From here, I began animating. The most complex part of this was actually
+          making sure every single topbar connected appropriately. Although this
+          seemed easy, and was by the end, it took more care than I anticipated.
+        </p>
+        <p align="center" style="margin: 40px 0">
+          <a
+            href="https://www.figma.com/proto/v3sB8TR7Sx9aVm4PlG9Lrn/Local-Health-Bill-App?page-id=100%3A648&node-id=100%3A1243&viewport=-620%2C709%2C0.5&scaling=scale-down&starting-point-node-id=100%3A1243"
+            >View Prototype</a
+          >
+        </p>
+        <img src="/images/health/usability.png" />
+        <p>
+          I conducted five usability tests with multiple individuals. These were
+          moderated remote usability studies. They attempted to complete the
+          onboarding process, find bills, and look at the achievements page.
+        </p>
+        <ul>
+          <li>
+            Topbar height. Most users had some trouble with the height of the
+            topbar, complaining about the height of it making it more difficult to
+            touch. This is an enormous amount of lost functionality.
+          </li>
+          <li>
+            Swipe navigation. Most users intuitively saw the topbar tabs as a sign
+            of swipe functions (such as with Instagram or Dribbble), and became
+            frustrated when attempting to use a function that did not exist.
+          </li>
+          <li>
+            Clearer indicators (text, colors, icons). Most users were confused by
+            indicators of certain links (i.e. definitions in bill descriptions)
+            and which achievements were complete or not.
+          </li>
+        </ul>
+        <h3>Style Guide</h3>
+        <img src="/images/health/styleguide.png" />
+        <p>
+          My past work had involved color or dark mode. I wanted to emphasize
+          something clean and easy to understand, so I picked two complimentary
+          colors of blue and orange. The blue was more soothing and seemed
+          friendlier, while the orange was a sharp accent that, to me, created
+          feelings of action and activity. I decided to use Space Grotesk for my
+          headlines and IBM Plex Sans for my body. These were easily available
+          fonts from Google. Space Grotesk, to me, looked modern and almost
+          slightly playful with its mix of sharp corners and curves, while IBM
+          Plex Sans was easily readable on screens.
+        </p>
+        <p>
+          I made sure to avoid flat white and flat black (#FFF and #000
+          respectively) for my background and text, as my web design history had
+          taught me that these could sometimes be jarring in certain environments
+          when placed on top of each other.I conducted five usability tests with
+          multiple individuals. These were moderated remote usability studies.
+          They attempted to complete the onboarding process, find bills, and look
+          at the achievements page.
+        </p>
+        <h3>Hi-Fi Prototype</h3>
+        <div class="imagegrid three">
+          <img src="/images/health/hifi1.png" />
+          <img src="/images/health/hifi2.png" />
+          <img src="/images/health/hifi3.png" />
+        </div>
+        <p>
+          Here, I ran into some of the issues with Figma. Figma’s smart animate
+          feature is great, but sometimes it picks up on the wrong things. I had
+          to compromise on some of the animations in order to get what I wanted
+          done with the swiping.I also decided to decrease the amount of orange
+          even more, in order to keep it from overwhelming the rest of the
+          prototype. I integrated animations on onboarding and animations on the
+          home page to make it feel more dynamic and alive, but in text and
+          information-heavy pages, I used less animation to keep from distracting
+          the user.
+        </p>
+        <p align="center" style="margin: 40px 0">
+          <a
+            href="https://www.figma.com/proto/v3sB8TR7Sx9aVm4PlG9Lrn/Local-Health-Bill-App?page-id=157%3A2782&node-id=157%3A3191&viewport=480%2C458%2C0.16&scaling=scale-down&starting-point-node-id=158%3A3776"
+            >View Prototype</a
+          >
+        </p>
+      </div>
+      <div class="pagechallenge">
+        <div>
+          <h1>Results & Reflections</h1>
+          <p>
+            This project taught me a lot about some of Figma's limitations. I ran
+            into issues with its implementation of something I’d done before in
+            web design: sticky topbars. I hypothetically wanted to be able to
+            create more sticky elements on scroll, but Figma wasn’t friendly
+            towards this idea. I also learned just how much a style guide can make
+            creation easier.
+          </p>
+  
+          <p>
+            Card design is something that is useful to categorize and, in a way,
+            herd in information. Grouping is a powerful tool in UX, and I came to
+            realize just how important it could be as I began to both distinguish
+            between certain sections and repeat designs in other sections to
+            associate them.
+          </p>
+  
+          <p>
+            What I wanted was an app that was personalized towards health
+            legislation, relevant to an area, and friendly rather than archaic. I
+            believe I succeeded in this regard, and I’m proud of the work I did.
+          </p>
+  
+          <p>
+            Given more time and a budget, I would complete further usability
+            tests, and I would build in more features such as a glossary. For this
+            project I decided to limit myself to the core functions needed from
+            the initial problem statements: definitions, relevant legislation, and
+            calls to action. However, I believe this could be expanded without
+            harming the focus of Billcheck.
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
