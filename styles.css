@@ -134,6 +134,7 @@ h1, h2, h3 {
     grid-area: 1 / 5 / 2 / 7; 
     overflow:hidden;
     padding:0!important;
+    margin:0;
 }
 
 .circle {
@@ -241,6 +242,7 @@ h1, h2, h3 {
     border-radius: 0 0 16px 16px;
     padding:0;
     margin:0;
+    margin-bottom:-10px;
     transition: transform .4s;
 }
 
