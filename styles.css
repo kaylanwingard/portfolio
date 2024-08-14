@@ -31,9 +31,65 @@ body {
     line-height:160%;
 }
 
+#topbar {
+    position:fixed;
+    left:0;
+    top:0;
+    background-color:var(--grey-100);
+    padding: 10px 48px;
+    width:calc(100vw - 96px);
+    z-index:99999999;
+    display:flex;
+    justify-content:space-between;
+}
+
+.right {
+    display:flex;
+    gap:24px;
+}
+
+.left a {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    font-size:1.5rem
+}
+
+.left a ion-icon {
+    font-size:2rem;
+}
+
+#topbar a {
+    font-size:1rem;
+    background-color:var(--grey-100);
+    border-radius:16px;
+    padding:0 20px;
+    text-decoration:none;
+    font-weight:500;
+    color:var(--grey-600);
+    border:1px solid var(--grey-100);
+    transition:0.3s all ease-in-out;
+    text-transform:uppercase;
+}
+
+
+
+#topbar a:hover {
+    border-color:var(--accent-main);
+    background-color:var(--grey-200);
+    transition:0.3s all ease-in-out;
+}
+
+#topbar a .current {
+    background-color:var(--accent-main);
+    border-color:var(--accent-main);
+}
+
+
 #hero {
-    width:calc(100vw - 100px);
-    height:calc(100vh - 100px);
+    width:calc(100vw - 96px);
+    height:calc(100vh - 96px);
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -45,7 +101,8 @@ body {
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    padding:50px;
+    padding:48px;
+    margin-top:40px;
     }
 
 .herogrid > div {
@@ -113,8 +170,6 @@ body {
     bottom:57px;
     left:32px;
 }
-
-
 
 .div2 .menu a:hover, .skip:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
