@@ -464,7 +464,7 @@ h1, h2, h3 {
       display:flex;
       flex-direction:column;
       gap:24px;
-      padding:24px;
+      padding:8px;
     }
 
     .circle {
@@ -484,6 +484,7 @@ h1, h2, h3 {
 
     .workheader {
         font-size:1.8rem;
+        height:auto;
     }
 
     .pageinfo {
