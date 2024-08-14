@@ -427,15 +427,28 @@ body {
   /**mobile adjustments**/
 
   @media (max-width: 700px) {
+    #hero {
+        width:calc(100vw - 48px);
+    }
     .herogrid {
       display:flex;
       flex-direction:column;
       gap:24px;
+      padding:24px;
     }
     
     .div2 .menu {
         flex-direction:row;
     }
+
+    .div1 h1 {
+        font-size:2rem;
+    }
+
+    .workheader {
+        font-size:1.8rem;
+    }
+
     .workintro {
         display: flex;
         gap: 30px;
