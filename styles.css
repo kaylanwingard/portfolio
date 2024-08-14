@@ -280,6 +280,7 @@ body {
 .pageinfo h2 {
     font-size:3rem;
     font-weight:400;
+    line-height:120%;
 }
 
 .pageinfo h3 {
@@ -349,7 +350,7 @@ body {
     width: 100vw;
   position: relative;
   left: calc(-50vw + 50%);
-  background-color: var(--grey-300);
+  background-color: var(--grey-200);
   color: var(--grey-700);
   margin: 48px 0;
     margin-bottom: 48px;
@@ -402,3 +403,21 @@ body {
     width: 25%;
     height: auto;
   }
+
+.articlemain a {
+    font-size: 1em;
+    letter-spacing: 0.9px;
+    margin: auto;
+    text-decoration: none;
+    background-color: var(--accent-main);
+    color:var(--grey-700);
+    padding: 10px 25px;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: auto;
+    text-align: center;
+    margin: 0 50px !important;
+  }
+  
